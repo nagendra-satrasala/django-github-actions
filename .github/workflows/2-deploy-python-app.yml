@@ -38,7 +38,7 @@ jobs:
           cache: "pip"
 
       - name: Install the project requirements
-        run: make requirements
+        run: make install
 
       # Build the code and create a lambda.zip artifact
       - name: Create the lambda.zip artifact
