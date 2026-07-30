@@ -71,7 +71,7 @@ jobs:
           cache: "pip"
 
       - name: Install the project requirements
-        run: make requirements
+        run: make install
 
       # Use a role for OIDC authentication vs access keys
       - name: Configure AWS Credentials (OIDC)
